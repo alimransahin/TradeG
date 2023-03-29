@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.text-color{
+    color: #03A413;
+}
+.bg-color{
+    background-color: #03A413;
+}
+.bg-gray{
+    background-color: #fafafa;
+}
+.text-blue{
+    color: #02185F;
+}
+.border-btm{
+    border-bottom: 8px solid #03A413;
+}
+/* Header */
+nav{
+    position: relative;
+}
+nav>ul>li{
+    display: inline-block;
+    
+}
+nav ul li:hover> a {
+    color: #e7ff6e;
+}
+nav>ul>li:hover .mega-menu{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.mega-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: scaleY(0);
+    transform-origin: left top;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; 
+    display: inline-block;
+}
+nav>ul>li>a {
+    padding: 10px;
+}
+.mega-menu{
+width: 100%;
+position: absolute;
+top: 100%;
+left: 0;
+}
+.mega-menu li a{
+    padding: 5px 0;
+}
+/* Search */
+.login:hover{
+    font-weight: bold;
+}
+/* Banner */
+.banner h1{
+    font-size: 3.5rem;
+}
+.banner h2{
+    font-size: 2.5rem;
+}
+.banner p{
+    font-size: .8rem;
+    color: #646464;
+}
+.trial{
+    background: #E3EFFF;
+    border: 2px solid transparent;
+}
+.trial:hover{
+    color: #03A413;
+    border: 2px solid #03A413;
+}
+
+/* course */
+.course{
+    
+}
+.course-title{
+    font-weight: bold;
+    background: #522662;
+}
+.course h5{
+    font-size: 1em;
+    color: #02185F;
+}
+.live{
+    border: 1px solid #000;
+    font-size: .8em;
+}
+.course-details{
+    color: #a1a6ad;
+    font-size: .7rem;
+}
+.avater{
+    font-size: .8rem;
+    position: relative;
+}
+.single{
+    text-align: center;
+    padding-top: 5px;
+    height: 32px;
+    width: 32px;    
+}
+.ks{
+    background-color: rgba(0, 128, 0, .3);
+    color: green;
+    position:absolute;
+    left: 0;
+}
+.aj{
+    background-color: rgba(255, 0, 0, .3);
+    color: red;
+    position: absolute;
+    left: 28px;
+}
+.mk{
+    background-color: rgba(0, 0, 255, .3);
+    color:blue;
+    position: absolute;
+    left: 56px;
+}
+.kj{
+    background-color: rgba(138, 43, 226, .3);
+    color:blueviolet;
+    position: absolute;
+    left: 84px;
+}
+.progress-title{
+    font-size: .8rem;
+}
